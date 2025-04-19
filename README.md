@@ -23,3 +23,6 @@ Extras:
         git add -u --> (only modified and deleted, not new files)
 
         git commit -m "<comment>"
+
+        git restore filename.py --> (to discard changes to a modified file that haven't git add'ed yet (but unstaged))
+        git reset filename.py --> (to unstage a file that you have git add'ed but haven't commited yet (just unstages it))
